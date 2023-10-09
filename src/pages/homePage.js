@@ -1,6 +1,6 @@
 import React from "react";
 
-import img from "../assets/images/me.jpg"
+import img from "../assets/images/rifqimaulana-headshot.jpg"
 
 const HomePage = () => {
     return (
@@ -9,7 +9,7 @@ const HomePage = () => {
             <div className="container p-10 mx-auto text-center rounded-lg 2xl:w-5/12 xl:w-7/12 lg:w-9/12 md:w-11/12 sm:w-12/12">
                 {/* CONTAINER HEADER */}
                 <div className="p-6">
-                    <img src={img} className="rounded-full w-36" alt="me.jpg" />
+                    <img src={img} className="rounded-full w-36" alt="rifqimaulana-headshot.jpg" />
                     <h1 className="text-left pt-6 text-5xl font-[rubik] font-semibold">Rifqi Maulana</h1>
                 </div>
                 {/* END OF CONTAINER HEADER */}
