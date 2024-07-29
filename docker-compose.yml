@@ -1,4 +1,4 @@
-version: '3.8'
+version: "3.8"
 
 services:
   app:
@@ -8,5 +8,5 @@ services:
       context: .
       dockerfile: Dockerfile
     ports:
-      - "3002:3000"
+      - "3011:3000"
     restart: always
